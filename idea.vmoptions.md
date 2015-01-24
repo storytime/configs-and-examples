@@ -1,6 +1,6 @@
 **idea.vmoptions**
 
-<pre><code>
+``` properties
 -ea
 -server
 -Xms2g
@@ -38,5 +38,6 @@
 -XX:+UseStringCache
 -XX:+UseFastAccessorMethods
 -XX:+UnlockDiagnosticVMOptions
-</code></pre>
+```
+
 
