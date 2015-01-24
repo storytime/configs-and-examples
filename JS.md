@@ -1,12 +1,10 @@
 **Closure**
-
 <pre><code>
-
     function wrapValue(n) {
       var localVariable = n;
       return function() { return localVariable; };
     }
-
+    
     function multiplier(factor) {
       return function(number) {
         return number * factor;
