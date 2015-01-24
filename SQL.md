@@ -1,6 +1,6 @@
 **Change case of table's name**
 
-<pre><code>
+``` sql
 # call toggleCase('leagueofnerds',1); To upper case
 # call toggleCase('leagueofnerds',0); To lower case
     
@@ -40,4 +40,4 @@
       END $$
     
     DELIMITER;
-</code></pre>
+```
