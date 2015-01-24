@@ -1,5 +1,6 @@
 **Plugin goal**
 
+``` xml
      <executions>
         <execution>
             <goals>
@@ -8,3 +9,4 @@
             <phase>package</phase>
         </execution>
     </executions>
+```
