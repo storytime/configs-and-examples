@@ -10,7 +10,7 @@
           });
       }
 
-      public List<String> usages() {
-          return enumValuesToNamesList(SomeEnum.values());
-      }
+  public List<String> usages() {
+      return enumValuesToNamesList(SomeEnum.values());
+  }
 ```
