@@ -1,5 +1,5 @@
 **Closure**
-<pre><code>
+``` javascript
     function wrapValue(n) {
       var localVariable = n;
       return function() { return localVariable; };
@@ -14,5 +14,4 @@
     var twice = multiplier(2);
     console.log(twice(5));
     // → 10
-</code></pre>
-
+``` 
