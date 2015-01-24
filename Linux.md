@@ -1,4 +1,4 @@
-```mount -l``` - **mount params**
+``` shell mount -l``` - **mount params**
 
 ```mount -o remount,rw /path/to/ ``` - **remount /path/to/ rw**
 
