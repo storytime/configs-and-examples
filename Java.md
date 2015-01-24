@@ -1,7 +1,6 @@
 **Enum to List**
 
-<pre><code>
-
+``` java
   private List<String> enumValuesToNamesList(Enum... tEnum) {
           return Lists.transform(Arrays.asList(tEnum), new Function<Enum, String>() {
               @Override
@@ -11,8 +10,7 @@
           });
       }
 
-
       public List<String> usages() {
           return enumValuesToNamesList(SomeEnum.values());
       }
-</code></pre>
+```
