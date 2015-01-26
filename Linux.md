@@ -12,9 +12,9 @@
 
 ```chown -R user:group /path/to/``` - **chmod recursive**
 
-```serv: nc -u -l -p 40101 cl: nc -u IP 40101``` - **test ports
+```serv: nc -u -l -p 40101 cl: nc -u IP 40101``` - **test ports**
 
-```cat /etc/passwd | awk -F ':' '{ print $1 }'``` - **list users
+```cat /etc/passwd | awk -F ':' '{ print $1 }'``` - **list users**
 
 ```find . -name *.class -type f``` - **find**
 
