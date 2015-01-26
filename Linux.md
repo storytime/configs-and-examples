@@ -8,7 +8,7 @@
 
 ```tar xvf archive.tar.bz``` - **extract**
 
-```tar cvf file.tar``` - ** create tar**
+```tar cvf file.tar``` - **create tar**
 
 ```chown -R user:group /path/to/``` - **chmod recursive**
 
