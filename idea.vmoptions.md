@@ -40,4 +40,41 @@
 -XX:+UnlockDiagnosticVMOptions
 ```
 
+For Java 8
+```
+-ea
+-server
+-Xms2g
+-Xmx2g
+-Xss32m
+-XX:+DoEscapeAnalysis
+-XX:+UseCompressedOops
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseConcMarkSweepGC
+-XX:LargePageSizeInBytes=512m
+-XX:ReservedCodeCacheSize=182m
+-XX:+UseCodeCacheFlushing
+-XX:+UseCompressedOops
+-XX:ParallelGCThreads=8
+-XX:+UseParNewGC
+-XX:+UseConcMarkSweepGC
+-XX:+DisableExplicitGC
+-XX:+ExplicitGCInvokesConcurrent
+-XX:+PrintGCDetails
+-XX:+PrintFlagsFinal
+-XX:+AggressiveOpts
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+CMSClassUnloadingEnabled
+-XX:+CMSClassUnloadingEnabled
+-XX:CMSInitiatingOccupancyFraction=60
+-XX:+CMSClassUnloadingEnabled
+-XX:+CMSParallelRemarkEnabled
+-XX:+UseAdaptiveGCBoundary
+-XX:+UseSplitVerifier
+-XX:CompileThreshold=10000
+-XX:+OptimizeStringConcat
+-XX:+UseStringCache
+-XX:+UseFastAccessorMethods
+-XX:+UnlockDiagnosticVMOptions
+```
 
