@@ -41,7 +41,7 @@
 ```
 
 For Java 8
-```
+``` properties
 -ea
 -server
 -Xms2g
