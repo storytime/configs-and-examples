@@ -8,4 +8,4 @@
 
 ```git format-patch -1 HEAD``` - **patch for last commit**
 
-
+```git reset .``` - **delete changes from index**
